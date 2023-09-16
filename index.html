@@ -1,0 +1,48 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Number Base Converter</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" />
+		<script src="number_system_module.js"></script>
+	</head>
+	<body>
+		<main>
+			<h1>Number Base Converter</h1>
+			<div class="box">
+				<section class="sec1">
+					<p>From:</p>
+					<input type="text" id="input" value="* Input number">
+					<select id="input-options">
+						<option value="Decimal" selected>Decimal</option>
+						<option value="Binary">Binary</option>
+						<option value="Octal">Octal</option>
+						<option value="Hexadecimal">Hexadecimal</option>
+					</select>
+					
+				</section>
+				<section class="sec2">
+					<p>To:</p>
+					<input type="text" id="output" disabled>
+					<select id="output-options">
+						<option value="Binary" selected>Binary</option>
+						<option value="Decimal">Decimal</option>
+						<option value="Octal">Octal</option>
+						<option value="Hexadecimal">Hexadecimal</option>
+					</select>
+				</section>
+				<section class="sec3">
+					<button id="reset">RESET</button>
+					<button id="calc">CALCULATE</button>
+					<button id="swap">SWAP</button>
+				</section>
+			</div>
+			
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
